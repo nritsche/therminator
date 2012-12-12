@@ -59,7 +59,7 @@ TARGET = main
 
 
 # List C source files here. (C dependencies are automatically generated.)
-SRC = $(TARGET).c lcd.c font6x8.c system.c config.c
+SRC = $(TARGET).c
 
 
 # List Assembler source files here.
@@ -75,7 +75,7 @@ ASRC =
 # Optimization level, can be [0, 1, 2, 3, s]. 
 #     0 = turn off optimization. s = optimize for size.
 #     (Note: 3 is not always the best optimization level. See avr-libc FAQ.)
-OPT = 1
+OPT = 3
 
 
 # Debugging format.
@@ -203,7 +203,7 @@ AVRDUDE_PROGRAMMER = avrisp2
 AVRDUDE_PORT = usb
 #AVRDUDE_PORT = COM1
 
-AVRDUDE_WRITE_FLASH = -U flash:w:$(TARGET).hex:i
+AVRDUDE_WRITE_FLASH = -U flash:w:$(TARGET).hex
 #AVRDUDE_WRITE_EEPROM = -U eeprom:w:$(TARGET).eep
 
 
