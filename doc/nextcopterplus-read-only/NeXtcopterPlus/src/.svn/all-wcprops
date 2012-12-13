@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/88/trunk/NeXtcopterPlus/src
+END
+eeprom.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/50/trunk/NeXtcopterPlus/src/eeprom.c
+END
+adc.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/30/trunk/NeXtcopterPlus/src/adc.c
+END
+uart.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/50/trunk/NeXtcopterPlus/src/uart.c
+END
+FC_main.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/88/trunk/NeXtcopterPlus/src/FC_main.c
+END
+isr.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/50/trunk/NeXtcopterPlus/src/isr.c
+END
+lcd.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/45/trunk/NeXtcopterPlus/src/lcd.c
+END
+gyros.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/30/trunk/NeXtcopterPlus/src/gyros.c
+END
+motors.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/50/trunk/NeXtcopterPlus/src/motors.c
+END
+init.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/50/trunk/NeXtcopterPlus/src/init.c
+END
+rc.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/45/trunk/NeXtcopterPlus/src/rc.c
+END
+proximity.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/30/trunk/NeXtcopterPlus/src/proximity.c
+END
+pots.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/30/trunk/NeXtcopterPlus/src/pots.c
+END
+acc.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/30/trunk/NeXtcopterPlus/src/acc.c
+END

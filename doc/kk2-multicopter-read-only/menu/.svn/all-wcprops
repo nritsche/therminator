@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/37/trunk/menu
+END
+menu.c
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/37/trunk/menu/menu.c
+END
+menu_screen.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/37/trunk/menu/menu_screen.h
+END
+menu_text.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/37/trunk/menu/menu_text.h
+END

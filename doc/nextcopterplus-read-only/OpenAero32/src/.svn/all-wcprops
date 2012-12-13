@@ -1,0 +1,287 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/157/trunk/OpenAero32/src
+END
+spektrum.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/143/trunk/OpenAero32/src/spektrum.c
+END
+drv_mma845x.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/143/trunk/OpenAero32/src/drv_mma845x.c
+END
+drv_mma845x.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/143/trunk/OpenAero32/src/drv_mma845x.h
+END
+drv_i2c_soft.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/143/trunk/OpenAero32/src/drv_i2c_soft.c
+END
+drv_mpu3050.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/143/trunk/OpenAero32/src/drv_mpu3050.c
+END
+mixer.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/157/trunk/OpenAero32/src/mixer.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/157/trunk/OpenAero32/src/main.c
+END
+drv_hmc5883l.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/143/trunk/OpenAero32/src/drv_hmc5883l.c
+END
+drv_mpu3050.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/143/trunk/OpenAero32/src/drv_mpu3050.h
+END
+imu.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/157/trunk/OpenAero32/src/imu.c
+END
+drv_hmc5883l.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/143/trunk/OpenAero32/src/drv_hmc5883l.h
+END
+board.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/157/trunk/OpenAero32/src/board.h
+END
+drv_system.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/143/trunk/OpenAero32/src/drv_system.c
+END
+printf.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/143/trunk/OpenAero32/src/printf.c
+END
+drv_adc.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/143/trunk/OpenAero32/src/drv_adc.c
+END
+drv_system.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/143/trunk/OpenAero32/src/drv_system.h
+END
+config.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/157/trunk/OpenAero32/src/config.c
+END
+printf.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/143/trunk/OpenAero32/src/printf.h
+END
+cli.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/157/trunk/OpenAero32/src/cli.c
+END
+drv_ms5611.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/143/trunk/OpenAero32/src/drv_ms5611.c
+END
+drv_adc.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/143/trunk/OpenAero32/src/drv_adc.h
+END
+drv_l3g4200d.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/143/trunk/OpenAero32/src/drv_l3g4200d.c
+END
+telemetry.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/143/trunk/OpenAero32/src/telemetry.c
+END
+drv_ms5611.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/143/trunk/OpenAero32/src/drv_ms5611.h
+END
+drv_pwm.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/157/trunk/OpenAero32/src/drv_pwm.c
+END
+serial.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/143/trunk/OpenAero32/src/serial.c
+END
+drv_l3g4200d.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/143/trunk/OpenAero32/src/drv_l3g4200d.h
+END
+buzzer.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/143/trunk/OpenAero32/src/buzzer.c
+END
+mw.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/157/trunk/OpenAero32/src/mw.c
+END
+drv_pwm.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/157/trunk/OpenAero32/src/drv_pwm.h
+END
+drv_bmp085.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/143/trunk/OpenAero32/src/drv_bmp085.c
+END
+drv_uart.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/157/trunk/OpenAero32/src/drv_uart.c
+END
+drv_mpu6050.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/143/trunk/OpenAero32/src/drv_mpu6050.c
+END
+drv_i2c.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/143/trunk/OpenAero32/src/drv_i2c.c
+END
+mw.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/157/trunk/OpenAero32/src/mw.h
+END
+gps.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/157/trunk/OpenAero32/src/gps.c
+END
+drv_adc_fy90q.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/143/trunk/OpenAero32/src/drv_adc_fy90q.c
+END
+drv_bmp085.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/143/trunk/OpenAero32/src/drv_bmp085.h
+END
+drv_uart.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/157/trunk/OpenAero32/src/drv_uart.h
+END
+sensors.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/143/trunk/OpenAero32/src/sensors.c
+END
+drv_mpu6050.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/143/trunk/OpenAero32/src/drv_mpu6050.h
+END
+drv_i2c.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/143/trunk/OpenAero32/src/drv_i2c.h
+END
+drv_adxl345.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/143/trunk/OpenAero32/src/drv_adxl345.c
+END
+drv_ledring.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/143/trunk/OpenAero32/src/drv_ledring.c
+END
+drv_adxl345.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/143/trunk/OpenAero32/src/drv_adxl345.h
+END
+drv_ledring.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/143/trunk/OpenAero32/src/drv_ledring.h
+END
+drv_pwm_fy90q.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/143/trunk/OpenAero32/src/drv_pwm_fy90q.c
+END

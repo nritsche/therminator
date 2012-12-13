@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/157/trunk/OpenAero32
+END
+OpenAero32.uvproj
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/157/trunk/OpenAero32/OpenAero32.uvproj
+END
+JLinkSettings.ini
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/144/trunk/OpenAero32/JLinkSettings.ini
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/144/trunk/OpenAero32/Makefile
+END

@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/168/trunk/OpenAero2/src
+END
+pid.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/161/trunk/OpenAero2/src/pid.c
+END
+menu_driver.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/162/trunk/OpenAero2/src/menu_driver.c
+END
+menu_sensors.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/160/trunk/OpenAero2/src/menu_sensors.c
+END
+servos.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/160/trunk/OpenAero2/src/servos.c
+END
+menu_autolevel.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/163/trunk/OpenAero2/src/menu_autolevel.c
+END
+mixer.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/168/trunk/OpenAero2/src/mixer.c
+END
+adc.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/158/trunk/OpenAero2/src/adc.c
+END
+menu_stability.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/162/trunk/OpenAero2/src/menu_stability.c
+END
+imu.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/160/trunk/OpenAero2/src/imu.c
+END
+mugui_text.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/153/trunk/OpenAero2/src/mugui_text.c
+END
+FC_main.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/168/trunk/OpenAero2/src/FC_main.c
+END
+menu_rcmixer.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/119/trunk/OpenAero2/src/menu_rcmixer.c
+END
+isr.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/118/trunk/OpenAero2/src/isr.c
+END
+menu_battery.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/150/trunk/OpenAero2/src/menu_battery.c
+END
+menu_expo.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/150/trunk/OpenAero2/src/menu_expo.c
+END
+servos_asm.S
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/117/trunk/OpenAero2/src/servos_asm.S
+END
+gyros.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/135/trunk/OpenAero2/src/gyros.c
+END
+init.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/160/trunk/OpenAero2/src/init.c
+END
+stack.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/150/trunk/OpenAero2/src/stack.c
+END
+menu_main.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/151/trunk/OpenAero2/src/menu_main.c
+END
+menu_mixer.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/162/trunk/OpenAero2/src/menu_mixer.c
+END
+menu_balance.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/160/trunk/OpenAero2/src/menu_balance.c
+END
+glcd_symbols.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/97/trunk/OpenAero2/src/glcd_symbols.c
+END
+glcd_driver.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/160/trunk/OpenAero2/src/glcd_driver.c
+END
+acc.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/160/trunk/OpenAero2/src/acc.c
+END
+eeprom.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/163/trunk/OpenAero2/src/eeprom.c
+END
+vbat.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/135/trunk/OpenAero2/src/vbat.c
+END
+glcd_menu.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/168/trunk/OpenAero2/src/glcd_menu.c
+END
+menu_general.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/161/trunk/OpenAero2/src/menu_general.c
+END
+lcd.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/97/trunk/OpenAero2/src/lcd.c
+END
+rc.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/163/trunk/OpenAero2/src/rc.c
+END
+menu_status.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/151/trunk/OpenAero2/src/menu_status.c
+END
+menu_rc_setup.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/162/trunk/OpenAero2/src/menu_rc_setup.c
+END
+menu_rcinput.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/150/trunk/OpenAero2/src/menu_rcinput.c
+END

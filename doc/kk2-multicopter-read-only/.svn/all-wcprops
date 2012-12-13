@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 22
+/svn/!svn/ver/38/trunk
+END
+KK2.atsln
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/38/trunk/KK2.atsln
+END
+mixer_table.c
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/37/trunk/mixer_table.c
+END
+sensors.c
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/38/trunk/sensors.c
+END
+KK2.cproj
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/38/trunk/KK2.cproj
+END
+controller.c
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/38/trunk/controller.c
+END
+mixer.c
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/38/trunk/mixer.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/38/trunk/main.c
+END
+config.c
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/38/trunk/config.c
+END

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/91/trunk/OpenAeroNano/src
+END
+eeprom.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/91/trunk/OpenAeroNano/src/eeprom.c
+END
+adc.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/91/trunk/OpenAeroNano/src/adc.c
+END
+uart.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/91/trunk/OpenAeroNano/src/uart.c
+END
+FC_main.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/91/trunk/OpenAeroNano/src/FC_main.c
+END
+isr.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/91/trunk/OpenAeroNano/src/isr.c
+END
+servos.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/91/trunk/OpenAeroNano/src/servos.c
+END
+lcd.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/91/trunk/OpenAeroNano/src/lcd.c
+END
+gyros.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/91/trunk/OpenAeroNano/src/gyros.c
+END
+init.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/91/trunk/OpenAeroNano/src/init.c
+END
+rc.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/91/trunk/OpenAeroNano/src/rc.c
+END
+pots.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/91/trunk/OpenAeroNano/src/pots.c
+END
+acc.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/91/trunk/OpenAeroNano/src/acc.c
+END

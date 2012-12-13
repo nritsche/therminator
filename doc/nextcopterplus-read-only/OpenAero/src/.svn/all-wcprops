@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/146/trunk/OpenAero/src
+END
+pots.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/93/trunk/OpenAero/src/pots.c
+END
+acc.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/93/trunk/OpenAero/src/acc.c
+END
+adc.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/93/trunk/OpenAero/src/adc.c
+END
+eeprom.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/93/trunk/OpenAero/src/eeprom.c
+END
+FC_main.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/146/trunk/OpenAero/src/FC_main.c
+END
+isr.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/146/trunk/OpenAero/src/isr.c
+END
+servos_asm.S
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/93/trunk/OpenAero/src/servos_asm.S
+END
+lcd.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/145/trunk/OpenAero/src/lcd.c
+END
+init.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/146/trunk/OpenAero/src/init.c
+END
+gyros.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/96/trunk/OpenAero/src/gyros.c
+END
+rc.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/146/trunk/OpenAero/src/rc.c
+END
+i2cmaster.S
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/94/trunk/OpenAero/src/i2cmaster.S
+END
+uart.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/95/trunk/OpenAero/src/uart.c
+END
+i2c.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/94/trunk/OpenAero/src/i2c.c
+END
+servos.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/93/trunk/OpenAero/src/servos.c
+END
