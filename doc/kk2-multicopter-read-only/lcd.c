@@ -92,7 +92,7 @@ static void setPos(uint8_t line, uint8_t column)
 	sendCommand(CMD_SET_COLUMN_LOWER | (column & 0x0f));
 }
 
-__attribute__ ((section(".data")))
+__attribute__ ((section(".lowtext")))
 ISR(TIMER0_OVF_vect, ISR_NOBLOCK)
 {
 	static uint16_t offset;
