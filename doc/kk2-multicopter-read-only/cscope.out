@@ -1,4 +1,4 @@
-cscope 15 $HOME/projects/kk2-multicopter/kk2-multicopter-read-only               0000202357
+cscope 15 $HOME/projects/therminator/doc/kk2-multicopter-read-only               0000202033
 	@adc.c
 
 10 
@@ -4895,40 +4895,8 @@ MCUSR
 	$öô
 ()
 
-46 
-	`c⁄figInô
-();
-
-47 
-	`adcInô
-();
-
-48 
-	`rxInô
-(
-C⁄fig
-.
-Re˚ivîMode
-);
-
-49 
-	`mixîInô
-();
-
-50 
-	`pwmInô
-();
-
 51 
 	`lcdInô
-();
-
-52 
-	`keybﬂrdInô
-();
-
-53 
-	`míuInô
 ();
 
 54 
@@ -5099,10 +5067,6 @@ THR
 	$maö
 ()
 
-97 
-	`£tup
-();
-
 100 
 	`£i
 ();
@@ -5111,43 +5075,29 @@ THR
 	`öô
 ();
 
-105 
-	`lcdCÀ¨
-();
-
 107 
 	`lcdSëPos
 (1, 0);
 
-108 
-	`lcdWrôeSåög_P
-(
-vîsi⁄Num
-);
-
 109 
 	`lcdWrôeSåög
-("sdfjsdnfkjdsfbdsfkjbdsfkjdsbfkjbdsfkjb");
+("Hier gehts");
 
-110 
-	`lcdSëPos
-(2, 0);
+116 
+uöt8_t
+ 
+x
+,
+y
+,
+cﬁ‹
+;
 
-111 
-	`lcdWrôeSåög_P
-(
-vîsi⁄Auth‹
-);
+117 
+cﬁ‹
+ = 1;
 
-112 
-	`digôÆsBuzzBlockög
-(500);
-
-113 
-	`WAITMS
-(700);
-
-115 i‡(
+130 i‡(
 	`keybﬂrdSèã
 (Ë=(
 KEY_1
@@ -5155,45 +5105,45 @@ KEY_1
 KEY_4
 ))
 
-116 
+131 
 	`ESCCÆibøti⁄
 ();
 
-120 
+135 
 LED_TOGGLE
 ;
 
-122 
+137 
 	`FIXEDUS
 (2500)
 
-124 
+139 
 	`rxRód
 ();
 
-125 
+140 
 	`CheckSèã
 ();
 
-126 
+141 
 	`£ns‹sRód
 ();
 
-127 
+142 
 	`c⁄åﬁÀr
 ();
 
-128 
+143 
 	`mixîMixög
 ();
 
-130 
+145 
 uöt8_t
  
 i
  = 0; i < 5; i++)
 
-131 
+146 
 	`pwmWrôe
 (
 i
@@ -5201,19 +5151,19 @@ i
 RX_øw
 [i]);
 
-133 
+148 
 	`EVERYMS
 (20)
 
-134 
+149 
 	`míuShow
 ();
 
-136 
+151 
 	`digôÆsLo›
 ();
 
-139 
+154 
 	}
 }
 
