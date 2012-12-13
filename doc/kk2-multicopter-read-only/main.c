@@ -106,7 +106,6 @@ int main(void)
 	lcdWriteGlyph_P(&glyLogo, ROP_COPY);
 	lcdSetPos(1, 0);
 	lcdWriteString_P(versionNum);
-	lcdWriteString("Hier gehts");
 	lcdSetPos(2, 0);
 	lcdWriteString_P(versionAuthor);
 	digitalsBuzzBlocking(500);
