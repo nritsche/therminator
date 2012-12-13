@@ -43,14 +43,14 @@ static void stop_wdt()
 
 static void init()
 {
-	//configInit();
-	//adcInit();
-	//rxInit(Config.ReceiverMode);
-	//mixerInit();
-	//pwmInit();
+	configInit();
+	adcInit();
+	rxInit(Config.ReceiverMode);
+	mixerInit();
+	pwmInit();
 	lcdInit();
-	//keyboardInit();
-	//menuInit();
+	keyboardInit();
+	menuInit();
 }
 
 static void CheckState()
@@ -94,7 +94,7 @@ static void ESCCalibration()
 int main(void)
 {
 	// setup hardware w/o interrupts
-	//setup();
+	setup();
 	
 	// enable interrupts
 	sei();
@@ -102,31 +102,16 @@ int main(void)
 	// init hardware
 	init();
 
-	//lcdClear();
-	//lcdWriteGlyph_P(&glyLogo, ROP_COPY);
+	lcdClear();
+	lcdWriteGlyph_P(&glyLogo, ROP_COPY);
 	lcdSetPos(1, 0);
-	//lcdWriteString_P(versionNum);
+	lcdWriteString_P(versionNum);
 	lcdWriteString("Hier gehts");
-	//lcdSetPos(2, 0);
-	//lcdWriteString_P(versionAuthor);
-	//digitalsBuzzBlocking(500);
-	//WAITMS(700);
+	lcdSetPos(2, 0);
+	lcdWriteString_P(versionAuthor);
+	digitalsBuzzBlocking(500);
+	WAITMS(700);
 
-	//test
-	uint8_t x,y,color;
-	color = 1;
-	//while (1) {
-     // for (x = 0; x < 64; x++) {
-       //  for (y = 0; y < 128; y++) {
-         //   lcdSetPixel(y,x,color);
-           // if (color)
-             //  color = 0;
-//            else
-  //             color = 1;
-    //     }
-      //}
-   //}
-	
 	if (keyboardState() == (KEY_1 | KEY_4))		// enter ESC Calibration mode?
 		ESCCalibration();
 
