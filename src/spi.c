@@ -1,4 +1,5 @@
 #include "spi.h"
+#include "Processors.h"
 
 //volatile unsigned char* outgoing[SPI_CMD_SIZE];
 volatile unsigned char incoming[SPI_CMD_SIZE];
