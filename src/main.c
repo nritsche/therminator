@@ -11,6 +11,8 @@ int main (void)
 	initSPI();
 
 	while(1) {
-		lcdWriteString(get_pressure());
+		unsigned char pressure[1];
+		pressure[0] = get_pressure(0);
+		lcdWriteString(pressure);
 	}
 }

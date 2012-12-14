@@ -74,8 +74,8 @@ void lcdSelectFont(const fontdescriptor_t *font);
 void lcdSetPixel(uint8_t x, uint8_t y, uint8_t on);
 void lcdSetPos(uint8_t line, uint8_t column);
 void lcdClear(void);
-void lcdWriteChar(char c);
-void lcdWriteString(char *s);
+void lcdWriteChar(unsigned char c);
+void lcdWriteString(unsigned char *s);
 
 static const unsigned char _initSeq[] PROGMEM = {
 	CMD_SET_BIAS_9,				// set bias to 1/9

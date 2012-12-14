@@ -10,6 +10,6 @@
 #define SPI_CS_PIN1 PC6
 #define SPI_CS_PIN2 PC4
 
-unsigned char get_pressure(void);
+unsigned char get_pressure(unsigned short int pitot);
 
 #endif
