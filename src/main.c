@@ -8,5 +8,9 @@ int main (void)
    lcdSetPos(1, 0);
    lcdWriteString("Guten Tag.");
 
-	while(1);
+	initSPI();
+
+	while(1) {
+		lcdWriteString(get_pressure());
+	}
 }

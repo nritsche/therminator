@@ -48,3 +48,12 @@ uint8_t send (volatile unsigned char* out[SPI_CMD_SIZE])
 		return 0;
 	}
 }
+
+unsigned char receive ()
+{
+	if (clear_to_send) {
+			return SPDR0;
+	}
+	else
+		return 0x00;
+}

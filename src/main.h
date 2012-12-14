@@ -3,6 +3,7 @@
 
 #include "lcd.h"
 #include "spi.h"
+#include "baro.h"
 #include <avr/interrupt.h>
 
 #endif
