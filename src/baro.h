@@ -4,6 +4,7 @@
 #define PRESS_OUT_XL 0x28
 #define PRESS_OUT_L 0x29
 #define PRESS_OUT_H 0x2A
+#define WHO_AM_I 0x0F
 
 #define SPI_CS_PORT PORTC
 #define SPI_CS_DIR DDRC

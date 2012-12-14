@@ -1,5 +1,6 @@
 #include "baro.h"
 #include "spi.h"
+#include "lcd.h"
 
 void init_baro()
 {
@@ -10,12 +11,9 @@ void init_baro()
 unsigned char get_pressure(unsigned short int pitot)
 {
 	SPI_CS_PORT |= (1<<SPI_CS_PIN1);
-	while (send (BARO_CMD & PRESS_OUT_XL));
-	unsigned char p = 0;
 	
-	while (!send (0x00));
-	
-	p = 0;
+	while (!send (BARO_CMD & WHO_AM_I, 0x00));
+	unsigned char p;
 	
 	while (!clear_to_send);
 	

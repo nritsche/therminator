@@ -14,6 +14,11 @@ int main (void)
 	while(1) {
 		unsigned char pressure[1];
 		pressure[0] = get_pressure(0);
+		
 		lcdWriteString(pressure);
+		if (pressure[0] == 0xBB)
+			lcdWriteString("i am BB");
+		else
+			lcdWriteString("i am not BB");
 	}
 }
