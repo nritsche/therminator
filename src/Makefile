@@ -59,7 +59,7 @@ TARGET = main
 
 
 # List C source files here. (C dependencies are automatically generated.)
-SRC = $(TARGET).c lcd.c font6x8.c
+SRC = $(TARGET).c lcd.c font6x8.c spi.c
 
 
 # List Assembler source files here.

@@ -2,6 +2,7 @@
 #define MAIN_H_
 
 #include "lcd.h"
+#include "spi.h"
 #include <avr/interrupt.h>
 
 #endif

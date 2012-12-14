@@ -3,7 +3,6 @@
 
 #include <avr/interrupt.h>
 #include <util/delay.h>
-#include <spi.h>
 
 #define SPI_PORT PORTB
 #define SPI_DIR DDRB

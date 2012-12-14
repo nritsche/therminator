@@ -31,8 +31,8 @@ ISR(SPI_STC_vect)
 {
 	send_ptr++; // ptr to next char
 	
-	if (*PtrToStrChar != 0)
-		SPDR  = *PtrToStrChar;	// send char
+	if (*send_ptr != 0)
+		SPDR  = *send_ptr;	// send char
 	else
 		clear_to_send = 1;	
 }
