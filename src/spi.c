@@ -38,15 +38,15 @@ ISR(SPI_STC_vect)
 }
 
 //initiate transmit
-bool send (volatile unsigned char out[SPI_CMD_SIZE])
+uint8_t send (volatile unsigned char out[SPI_CMD_SIZE])
 {
 	if (clear_to_send) {
 		clear_to_send = 0;
 		// set ptr to start of string
 		send_ptr = *out;
-		return true;
+		return 1;
 	}
 	else {
-		return false;
+		return 0;
 	}
 }

@@ -3,6 +3,8 @@
 
 #include <avr/interrupt.h>
 #include <util/delay.h>
+#include <avr/io.h>
+#include <spi.h>
 
 #define SPI_PORT PORTB
 #define SPI_CS_PORT PORTC
@@ -15,5 +17,8 @@
 #define SPI_MISO_PIN PB6
 
 #define SPI_CMD_SIZE 2
+
+void initSPI(void);
+uint8_t send (volatile unsigned char out[SPI_CMD_SIZE]);
 
 #endif
