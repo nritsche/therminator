@@ -1,7 +1,7 @@
 #include "baro.h"
 #include "spi.h"
 
-char *get_pressure()
+unsigned char get_pressure()
 {
 	return receive();
 }
