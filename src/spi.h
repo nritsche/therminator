@@ -13,6 +13,8 @@
 
 #define SPI_CMD_SIZE 2
 
+volatile unsigned int clear_to_send;
+
 void initSPI (void);
 uint8_t send (volatile unsigned char* out[SPI_CMD_SIZE]);
 unsigned char receive (void);

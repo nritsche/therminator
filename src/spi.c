@@ -4,7 +4,6 @@
 //volatile unsigned char* outgoing[SPI_CMD_SIZE];
 volatile unsigned char incoming[SPI_CMD_SIZE];
 volatile short int received=0;
-volatile short int clear_to_send=0;
 volatile unsigned char* send_ptr;
 
 void initSPI()
@@ -23,6 +22,7 @@ void initSPI()
 	// clear SPIF bit in SPSR
 	volatile char IOReg = SPSR0;
 	IOReg = SPDR0;
+	clear_to_send = 1;
 }
 
 // called every spi clock cycle
