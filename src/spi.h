@@ -4,7 +4,6 @@
 #include <avr/interrupt.h>
 #include <util/delay.h>
 #include <avr/io.h>
-#include <spi.h>
 
 #define SPI_PORT PORTB
 #define SPI_CS_PORT PORTC

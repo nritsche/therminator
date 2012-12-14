@@ -22,8 +22,6 @@ void initSPI()
 	// clear SPIF bit in SPSR
 	volatile char IOReg   = SPSR;
 	IOReg   = SPDR;
-
-	__enable_interrupt();
 }
 
 // called every spi clock cycle
