@@ -10,6 +10,7 @@ int main (void)
 
 	initSPI();
 
+
 	while(1) {
 		lcdWriteString(get_pressure());
 	}
