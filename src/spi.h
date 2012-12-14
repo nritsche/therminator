@@ -12,6 +12,6 @@
 #define SPI_MOSI_PIN PB5
 #define SPI_MISO_PIN PB6
 
-#define SPI_CMD_SIZE 16
+#define SPI_CMD_SIZE 2
 
 #endif

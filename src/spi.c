@@ -1,7 +1,10 @@
 #include "spi.h"
 
-volatile unsigned char incoming[BUFSIZE];
+//volatile unsigned char* outgoing[SPI_CMD_SIZE];
+volatile unsigned char incoming[SPI_CMD_SIZE];
 volatile short int received=0;
+volatile short int clear_to_send=0;
+char* send_ptr;
 
 void initSPI()
 {
@@ -23,7 +26,27 @@ void initSPI()
 	__enable_interrupt();
 }
 
-// called when last byte was sent
+// called every spi clock cycle
 ISR(SPI_STC_vect)
 {
+	send_ptr++; // ptr to next char
+	
+	if (*PtrToStrChar != 0)
+		SPDR  = *PtrToStrChar;	// send char
+	else
+		clear_to_send = 1;	
+}
+
+//initiate transmit
+bool send (volatile unsigned char out[SPI_CMD_SIZE])
+{
+	if (clear_to_send) {
+		clear_to_send = 0;
+		// set ptr to start of string
+		send_ptr = *out;
+		return true;
+	}
+	else {
+		return false;
+	}
 }
