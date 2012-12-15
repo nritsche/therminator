@@ -30,6 +30,6 @@ unsigned char get_pressure(unsigned short int pitot)
 	p = receive();
 
 	// set CS high again
-	SPI_CS_PORT |= (1 << (SPI_CS_PIN1 + pitot * 2));
+	SPI_CS_PORT |= (1 << (SPI_CS_PIN2 + pitot * 2));
 	return p;
 }
