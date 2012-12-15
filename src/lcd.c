@@ -162,7 +162,7 @@ void lcdClear()
 	_flags = 0;
 }
 
-void lcdWriteChar(unsigned char c)
+void lcdWriteChar(char c)
 {
 	if (c == '\n')
 	{
@@ -176,7 +176,7 @@ void lcdWriteChar(unsigned char c)
 	}
 }
 
-void lcdWriteString(unsigned char *s)
+void lcdWriteString(char *s)
 {
 	char c;
 	while ((c = *s++))

@@ -1,38 +1,36 @@
 #include "spi.h"
 #include "Processors.h"
+#include "lcd.h"
 
-//volatile unsigned char* outgoing[SPI_CMD_SIZE];
-volatile unsigned char incoming[SPI_CMD_SIZE];
-volatile short int received=0;
-volatile unsigned char* send_ptr;
-volatile unsigned char data_sent;
 volatile unsigned char spi_data;
 
 void initSPI()
 {
-	// set PB4(/SS), PB5(MOSI), PB7(SCK) as output 
-	SPI_DIR  |= (1<<PB4)|(1<<PB5)|(1<<PB7);
+	// set PB5(MOSI), PB7(SCK) as output
+	// also PB4(SS) to ensure SPI functionality
+	SPI_DIR  |= (1<<SPI_MOSI_PIN)|(1<<SPI_SCK_PIN)|(1<<PB4);
 
 	// and MISO as input
 	SPI_DIR &= ~(1<<SPI_MISO_PIN);
 
-   // enable SPI Interrupt and SPI in Master Mode with SCK = CK/16
+   // enable SPI Interrupt and SPI in Master Mode with SCK = CK/128
    // with MSB transmitted first, clock HIGH when idle and
    // clock phase CPHA set to 1 ?
 	SPCR0 |= (1<<SPIE0)|(1<<SPE0)|(1<<MSTR0)|(1<<SPR10)|(1<<SPR00)|(1<<CPOL0)|(1<<CPHA0);
 	
 	// clear SPIF bit in SPSR
-	volatile char IOReg = SPSR0;
-	IOReg = SPDR0;
+	spi_data = SPSR0;
+	spi_data = SPDR0;
+
 	clear_to_send = 1;
 }
 
-// called every spi clock cycle
+// called when next byte can be send
 ISR(SPI_STC_vect)
 {
-	if (!data_sent) {
+	if (!clear_to_send) {
 		SPDR0  = spi_data;	// send char
-		data_sent = 1;
+		lcdWriteString ("wrote data to SPDR0\n");
 	}
 	else
 		clear_to_send = 1;	
@@ -45,8 +43,10 @@ uint8_t send (volatile unsigned char cmd, volatile unsigned char data)
 		clear_to_send = 0;
 
 		SPDR0 = cmd;
-
+		lcdWriteString ("wrote cmd to SPDR0\n");
 		spi_data = data;
+
+
 		return 1;
 	}
 	else {
@@ -58,7 +58,8 @@ unsigned char receive ()
 {
 	if (clear_to_send) {
 			return SPDR0;
+			lcdWriteString ("read from SPDR0\n");
 	}
 	else
-		return 0x00;
+		return 0x1F;
 }
