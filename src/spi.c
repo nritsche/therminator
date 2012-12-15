@@ -3,6 +3,7 @@
 #include "lcd.h"
 
 volatile unsigned char spi_data;
+volatile unsigned char data_sent;
 
 void initSPI()
 {
@@ -28,7 +29,8 @@ void initSPI()
 // called when next byte can be send
 ISR(SPI_STC_vect)
 {
-	if (!clear_to_send) {
+	if (!data_sent) {
+		data_sent = 1;
 		SPDR0  = spi_data;	// send char
 		lcdWriteString ("wrote data to SPDR0\n");
 	}
@@ -42,10 +44,10 @@ uint8_t send (volatile unsigned char cmd, volatile unsigned char data)
 	if (clear_to_send) {
 		clear_to_send = 0;
 
+		spi_data = data;
+		data_sent = 0;
 		SPDR0 = cmd;
 		lcdWriteString ("wrote cmd to SPDR0\n");
-		spi_data = data;
-
 
 		return 1;
 	}

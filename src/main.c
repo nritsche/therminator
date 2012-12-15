@@ -9,6 +9,7 @@ int main (void)
    lcdSetPos(1, 0);
    lcdWriteString("ich werde nie BB sein");
 
+    init_baro();
 	initSPI();
 	unsigned int i = 0;
 	char pressure[2];
@@ -33,7 +34,7 @@ int main (void)
 
 		_delay_ms(1000);
 		i++;
-		if (i == 6) {
+		if (i == 2) {
 			i = 0;
 			lcdClear();
 		}

@@ -13,4 +13,5 @@
 #define SPDR0 SPDR
 #define SPE0 SPE
 #define SPR00 SPR0
+#define SPR10 SPR1
 #endif
