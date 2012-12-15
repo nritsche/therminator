@@ -6,7 +6,7 @@ volatile unsigned char incoming[SPI_CMD_SIZE];
 volatile short int received=0;
 volatile unsigned char* send_ptr;
 volatile unsigned char data_sent;
-volatile unsigned char* data;
+volatile unsigned char spi_data;
 
 void initSPI()
 {
@@ -30,8 +30,10 @@ void initSPI()
 // called every spi clock cycle
 ISR(SPI_STC_vect)
 {
-	if (!data_sent)
-		SPDR0  = *data;	// send char
+	if (!data_sent) {
+		SPDR0  = spi_data;	// send char
+		data_sent = 1;
+	}
 	else
 		clear_to_send = 1;	
 }
@@ -44,7 +46,7 @@ uint8_t send (volatile unsigned char cmd, volatile unsigned char data)
 
 		SPDR0 = cmd;
 
-		data_sent = data;
+		spi_data = data;
 		return 1;
 	}
 	else {
