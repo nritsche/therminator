@@ -47,7 +47,7 @@ uint8_t send (volatile unsigned char cmd, volatile unsigned char data)
 		spi_data = data;
 		data_sent = 0;
 		SPDR0 = cmd;
-		lcdWriteString ("wrote cmd to SPDR0\n");
+		//lcdWriteString ("wrote cmd to SPDR0\n");
 
 		return 1;
 	}
@@ -59,8 +59,8 @@ uint8_t send (volatile unsigned char cmd, volatile unsigned char data)
 unsigned char receive ()
 {
 	if (clear_to_send) {
+		//lcdWriteString ("read from SPDR0\n");
 			return SPDR0;
-			lcdWriteString ("read from SPDR0\n");
 	}
 	else
 		return 0x1F;

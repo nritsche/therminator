@@ -14,7 +14,7 @@ void init_baro()
 unsigned char get_pressure(unsigned short int pitot)
 {
 	if (pitot && pitot != 1)
-		return 0xFF;
+		return 0xAF;
 
 	//PIN2 is defined 4 and PIN1 is defined 6
 	SPI_CS_PORT &= ~(1 << (SPI_CS_PIN2 + pitot * 2));
