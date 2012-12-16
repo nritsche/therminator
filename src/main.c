@@ -1,6 +1,5 @@
 #include "main.h"
 #include <util/delay.h>
-#include "AnalogSensors.h"
 
 uint8_t convertToAscii(uint8_t digit) {
 	if (digit < 10)
@@ -36,6 +35,9 @@ int main (void)
 	pressure[0] = 0x00;
 	pressure[1] = 0x00;
 	
+	_delay_ms(200);
+	init_pong();
+
 	while (1) {
 		/*pressure[0] = get_pressure(0);
 		lcdWriteString("read 0x");
@@ -61,7 +63,7 @@ int main (void)
 
 		//_delay_ms(50);
 
-		lcdWriteString("ACC_X: 0x");
+		/*lcdWriteString("ACC_X: 0x");
 		print_12bit_value(analog_sensor_values[ACC_X]);
 		lcdWriteString("ACC_Y: 0x");
 		print_12bit_value(analog_sensor_values[ACC_Y]);
@@ -79,6 +81,8 @@ int main (void)
 		if (i == 1) {
 			i = 0;
 			lcdClear();
-		}
+		}*/
+		pong_next();
+		_delay_ms(50);
 	}
 }

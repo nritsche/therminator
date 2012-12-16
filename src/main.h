@@ -5,5 +5,7 @@
 #include "spi.h"
 #include "baro.h"
 #include <avr/interrupt.h>
+#include "AnalogSensors.h"
+#include "pong.h"
 
 #endif
