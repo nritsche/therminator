@@ -18,14 +18,15 @@ unsigned char get_pressure(unsigned short int pitot)
 
 	//PIN2 is defined 4 and PIN1 is defined 6
 	SPI_CS_PORT &= ~(1 << (SPI_CS_PIN2 + pitot * 2));
+   //#include <util/delay.h>
+	//_delay_ms(50);
 	
 	while (!send (BARO_CMD | WHO_AM_I, 0x00));
 	unsigned char p;
 	
 	while (!clear_to_send);
 
-	// at carsten: wie wärs mal mit einer sleeptime als test HIER
-	// #include <util/delay.h> _delay_ms(const);
+	//_delay_ms(50);
 	
 	p = receive();
 

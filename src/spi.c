@@ -17,7 +17,7 @@ void initSPI()
    // enable SPI Interrupt and SPI in Master Mode with SCK = CK/128
    // with MSB transmitted first, clock HIGH when idle and
    // clock phase CPHA set to 1 ?
-	SPCR0 |= (1<<SPIE0)|(1<<SPE0)|(1<<MSTR0)|(1<<SPR10)|(1<<SPR00)|(1<<CPOL0)|(1<<CPHA0);
+	SPCR0 |= (1<<SPIE0)|(1<<SPE0)|(1<<MSTR0)|(1<<SPR10)|(1<<SPR00)|(1<<CPOL0) |(1<<CPHA0);
 	
 	// clear SPIF bit in SPSR
 	spi_data = SPSR0;

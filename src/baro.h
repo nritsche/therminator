@@ -11,7 +11,7 @@
 #define SPI_CS_PIN1 PC6
 #define SPI_CS_PIN2 PC4
 
-#define BARO_CMD 128
+#define BARO_CMD 0
 
 unsigned char get_pressure(unsigned short int pitot);
 void init_baro(void);
