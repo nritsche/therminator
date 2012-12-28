@@ -39,7 +39,7 @@ ISR(SPI_STC_vect)
 }
 
 //initiate transmit
-uint8_t send (volatile unsigned char cmd, volatile unsigned char data)
+uint8_t spi_send (volatile unsigned char cmd, volatile unsigned char data)
 {
 	if (clear_to_send) {
 		clear_to_send = 0;

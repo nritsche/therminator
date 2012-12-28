@@ -21,7 +21,7 @@ unsigned char get_pressure(unsigned short int pitot)
    //#include <util/delay.h>
 	//_delay_ms(50);
 	
-	while (!send (BARO_CMD | WHO_AM_I, 0x00));
+	while (!spi_send (BARO_CMD | WHO_AM_I, 0x00));
 	unsigned char p;
 	
 	while (!clear_to_send);

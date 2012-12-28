@@ -16,7 +16,7 @@
 volatile unsigned int clear_to_send;
 
 void initSPI (void);
-uint8_t send (volatile unsigned char cmd, volatile unsigned char data);
+uint8_t spi_send (volatile unsigned char cmd, volatile unsigned char data);
 unsigned char receive (void);
 
 #endif
